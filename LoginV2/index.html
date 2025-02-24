@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <h1>Bem-vindo de volta!</h1>
+            <p>Você pode fazer login para acessar com sua conta existente.</p>
+        </div>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">Usuário</label>
+                <input type="text" id="username" name="username" placeholder="Usuário ou Email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" placeholder="Senha" required>
+            </div>
+            <div class="options">
+                <label>
+                    <input type="checkbox" id="rememberMe"> Lembre de mim
+                </label>
+                <a href="#" id="forgotPassword">Esqueceu sua senha?</a>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <div class="signup-link">
+            <p>Não tem conta? <a href="#">Crie uma conta</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
